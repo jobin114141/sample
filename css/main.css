@@ -1267,8 +1267,8 @@ blockquote {
   height: 10rem;
   padding: 0 7.6rem;
   -moz-border-radius: 5rem;
-  border-radius: 5rem;
-  border: 1px solid var(--neutral-bright);
+  border-radius: 5rem !important;
+  border: 1px solid ;
   background-color: var(--neutral-bright);
   font: normal var(--font-weight-medium) 1.8rem/10rem var(--_font-default);
   color: var(--t-opp-bright);
@@ -1282,7 +1282,7 @@ blockquote {
 
 @media only screen and (min-width: 1200px) {
   .btn-default {
-    border: 1px solid var(--stroke-controls);
+    border: 1px solid ;
     background-color: transparent;
     font-size: 2rem;
     color: var(--t-bright);
@@ -1328,7 +1328,7 @@ blockquote {
     height: 0;
     -moz-border-radius: 50%;
     border-radius: 50%;
-    background-color: var(--t-bright);
+    background-color: black;
     -webkit-transition: width 0.3s ease-in-out, height 0.3s ease-in-out;
     -moz-transition: width 0.3s ease-in-out, height 0.3s ease-in-out;
     transition: width 0.3s ease-in-out, height 0.3s ease-in-out;
@@ -1339,8 +1339,8 @@ blockquote {
   }
 
   .no-touch .hover-default:hover {
-    color: var(--t-opp-bright);
-    background-color: var(--t-bright);
+    color: white;
+    background-color: black;
     -webkit-transition: color 0.3s 0s, background-color 0.3s 0.2s, -webkit-box-shadow 0.5s, -webkit-transform 0.3s ease-in-out;
     transition: color 0.3s 0s, background-color 0.3s 0.2s, -webkit-box-shadow 0.5s, -webkit-transform 0.3s ease-in-out;
     -moz-transition: color 0.3s 0s, background-color 0.3s 0.2s, box-shadow 0.5s, transform 0.3s ease-in-out, -moz-box-shadow 0.5s, -moz-transform 0.3s ease-in-out;
@@ -2583,7 +2583,7 @@ form textarea {
   margin: 0;
   padding: 1.6rem 0.4rem 1.6rem 0.4rem;
   background-color: transparent;
-  border-bottom: 1px solid var(--stroke-elements);
+  border-bottom: 1px solid;
   font: normal 400 1.8rem var(--_font-default);
   color: var(--t-bright);
 }
