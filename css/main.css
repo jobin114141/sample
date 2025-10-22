@@ -109,7 +109,7 @@
 
 
 
-* {
+body {
   background-color: #FAF9F6;
   /* border: none !important; */
   /* outline: none !important; */
@@ -2765,7 +2765,7 @@ form textarea:required:valid {
   .main__intro.intro-95-desktop {
     height: 95vh;
     margin-bottom: 0;
-    padding-top: 7rem;
+    /* padding-top: 7rem; */
   }
 
   .main__intro.intro-fullheight-centered {
@@ -2778,7 +2778,7 @@ form textarea:required:valid {
 
   .main__intro.intro-95-desktop,
   .main__intro.intro-fullheight-centered {
-    padding-top: 8rem;
+    /* padding-top: 8rem; */
   }
 }
 
