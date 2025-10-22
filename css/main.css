@@ -2763,7 +2763,7 @@ form textarea:required:valid {
   }
 
   .main__intro.intro-95-desktop {
-    height: 95vh;
+    height: 100vh;
     margin-bottom: 0;
     /* padding-top: 7rem; */
   }
@@ -3151,23 +3151,23 @@ form textarea:required:valid {
 .headline {
   position: relative;
   padding: 0 2rem;
-  margin-top: 11.2rem;
+  /* margin-top: 11.2rem; */
 }
 
 .headline.headline-95-desktop,
 .headline.headline-centered {
-  margin-top: 9.5rem;
+  /* margin-top: 9.5rem; */
 }
 
 @media only screen and (min-width: 768px) {
   .headline {
     padding: 0 5rem;
-    margin-top: 14.2rem;
+    /* margin-top: 14.2rem; */
   }
 
   .headline.headline-95-desktop,
   .headline.headline-centered {
-    margin-top: 10.9rem;
+    /* margin-top: 10.9rem; */
   }
 }
 
@@ -3183,7 +3183,7 @@ form textarea:required:valid {
     position: absolute;
     bottom: 0;
     left: 0;
-    padding-bottom: 9rem;
+    padding: 9rem;
   }
 
   .headline.headline-centered {
