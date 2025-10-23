@@ -4945,7 +4945,7 @@ form textarea:required:valid {
 
 @media only screen and (min-width: 1400px) {
   .footer {
-    padding: 18.1rem 0 9.7rem 0;
+    /* padding: 18.1rem 0 9.7rem 0; */
   }
 
   .footer.footer-marquee {
@@ -4955,7 +4955,7 @@ form textarea:required:valid {
 
 @media only screen and (min-width: 1600px) {
   .footer {
-    padding: 21.2rem 0 11rem 0;
+    /* padding: 21.2rem 0 11rem 0; */
   }
 
   .footer.footer-marquee {
