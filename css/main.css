@@ -109,8 +109,8 @@
 
 
 
-body {
-  background-color: #FAF9F6;
+body { 
+  background-color: rgba(233, 218, 204, 0.466) !important;
   /* border: none !important; */
   /* outline: none !important; */
 }
