@@ -208,6 +208,15 @@ body {
 .about-image-1 {
   background-image: url("../img/imgss/img15.png");
 }
+.about-image-2 {
+  background-image: url("../img/imgss/img18\ \(1\).png");
+}
+.about-image-3 {
+  background-image: url("../img/imgss/img17.png");
+}
+.about-image-4 {
+  background-image: url("../img/imgss/img15.png");
+}
 
 .marquee-image-single-1 {
   background-image: url("../img/marquee/01.webp");
@@ -234,11 +243,11 @@ body {
 }
 
 .portfolio-item-1 {
-  background-image: url("../img/works/1920x1080_w01.webp");
+  background-image: url("../img/imgss/upscalemedia-transformed\ \(1\).png");
 }
 
 .portfolio-item-2 {
-  background-image: url("../img/works/1920x1080_w02.webp");
+  background-image: url("../img/imgss/upscalemedia-transformed\ \(1\).png");
 }
 
 .portfolio-item-3 {
