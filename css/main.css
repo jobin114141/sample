@@ -206,7 +206,7 @@ body {
 }
 
 .about-image-1 {
-  background-image: url("../img/imgss/img15.png");
+  background-image: url("../img/imgss/img20.png");
 }
 .about-image-2 {
   background-image: url("../img/imgss/img18\ \(1\).png");
@@ -217,7 +217,9 @@ body {
 .about-image-4 {
   background-image: url("../img/imgss/img15.png");
 }
-
+.about-image-5 {
+  background-image: url("../img/imgss/img15.png");
+}
 .marquee-image-single-1 {
   background-image: url("../img/marquee/01.webp");
 }
