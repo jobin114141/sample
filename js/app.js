@@ -96,6 +96,41 @@ function pageAppearance() {
 // Loader & Loading Animation End
 // --------------------------------------------- //
 
+window.addEventListener("DOMContentLoaded", () => {
+  const allowedPages = ["/index.html", "/ourProducts.html"]; // pages to enable effect
+  const currentPage = window.location.pathname;
+
+  // Only run on allowed pages
+  if (!allowedPages.includes(currentPage)) return;
+
+  const menuLinks = document.querySelectorAll(".menu__link");
+
+  // Set initial color
+  menuLinks.forEach(link => link.style.color = "white");
+
+  const updateColor = () => {
+    const scrollY = window.scrollY;
+    const viewportHeight = window.innerHeight;
+
+    // Check if screen width >= 1200px
+    const isLargeScreen = window.matchMedia("(min-width: 1200px)").matches;
+
+    // Threshold: 100vh for large screens, 200px otherwise
+    const threshold = isLargeScreen ? viewportHeight : 20;
+
+    if (scrollY >= threshold) {
+      menuLinks.forEach(link => link.style.color = "black");
+    } else {
+      menuLinks.forEach(link => link.style.color = "white");
+    }
+  };
+
+  // Run on scroll and resize
+  window.addEventListener("scroll", updateColor);
+  window.addEventListener("resize", updateColor);
+});
+
+
 // --------------------------------------------- //
 // Bootstrap Scroll Spy Plugin Settings Start
 // --------------------------------------------- //
